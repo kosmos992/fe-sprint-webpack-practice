@@ -7,13 +7,11 @@
     <title>랜덤색상출력기</title>
   </head>
   <body>
-    <main onclick="newColor()">
-      <h1>버튼을 누를 때마다 색이 바뀝니다</h1>
-      <button>Change Color</button>
+    <main id="btn">
+      <h1><button onclick="newColor()">Change Color</button></h1>
     </main>
-    <main>
-      <h1>현재 색상 코드는</h1>
-      <h1 id="app"></h1>
+    <main id="container">
+      <h1 id="app">rgb(255, 255, 255)</h1>
     </main>
     <script src="app.bundle.js"></script>
   </body>
